@@ -7,6 +7,12 @@ namespace ExploreFramework
         public string name;
         public string description;  
         public string image;
+
         public void SetData(string name, string description, string image)
+        {
+            this.name = name;
+            this.description = description;
+            this.image = image;
+        }
     }
 }
