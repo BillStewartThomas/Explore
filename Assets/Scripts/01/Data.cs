@@ -1,12 +1,12 @@
 using UnityEngine;
-public class Data : MonoBehaviour
+
+namespace ExploreFramework
 {
-    private void Start()
+    public class Data:MonoBehaviour
     {
-        Debug.Log("HelloWorld!!!");
-    }
-    
-    private void Update()
-    {
+        public string name;
+        public string description;  
+        public string image;
+        public void SetData(string name, string description, string image)
     }
 }
